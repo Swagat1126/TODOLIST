@@ -1,0 +1,82 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    margin-top: 5px;
+}
+
+#input {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 250px;
+}
+
+#Heading {
+    background-color: thistle;
+    padding: 1px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: mediumpurple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.List {
+    border: 2px solid mediumpurple;
+    width: 70%;
+    /* or 400px if you prefer fixed */
+    margin: 20px auto;
+    /* 👈 THIS centers it */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lavenderblush;
+}
+
+
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#taskList li {
+    padding: 6px;
+    margin-bottom: 5px;
+    background-color: #f3e8ff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overdue {
+    color: red;
+    font-weight: bold;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
